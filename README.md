@@ -1,168 +1,108 @@
-# Awesome-Manual-Exploratory-Testing-Tool
+# Awesome Manual & Exploratory Testing Tools
 
-# Awesome Manual & Exploratory Testing Tool
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-> A curated list of top Manual and Exploratory Testing tools — both SaaS/Hosted commercial solutions and open-source alternatives for session-based test management, note-taking, and evidence capture during unscripted testing.
+> A curated list of top **Manual and Exploratory Testing Tools** — featuring commercial SaaS test management solutions, session-based testing (SBTM) companions, open-source test runners, and browser extensions for unscripted QA, note-taking, and rapid evidence capture.
+>
 > 🌟 Star this repo if you find it useful! 🌟
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Xray Exploratory App](#xray-exploratory-app)
-  - [Tricentis qTest Explorer](#tricentis-qtest-explorer)
-  - [TestRail Exploratory Testing](#testrail-exploratory-testing)
-  - [PractiTest Exploratory](#practitest-exploratory)
-  - [Testmo Exploratory](#testmo-exploratory)
 - [Open-Source Software](#-open-source-software)
-  - [TestPlanIt](#testplanit)
-  - [Rapid Reporter](#rapid-reporter)
-  - [Session Tester](#session-tester)
-  - [Bug Magnet](#bug-magnet)
-  - [QA Trace](#qa-trace)
-  - [Suitest](#suitest)
+- [Comparison at a Glance](#-comparison-at-a-glance)
+- [Key Exploratory Testing Concepts](#-key-exploratory-testing-concepts)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global **Software Testing & QA Market** is estimated at **$54B–$63B** (projected to exceed **$95B+** by the early 2030s at an ~11% CAGR), with the dedicated **Test Management Software** segment representing approximately **$2.6B**. The sector is **moderately fragmented**—while enterprise conglomerates like Tricentis and Idera anchor the high-end centralized test management market through PE acquisitions, exploratory and session-based testing remains dynamically dispersed across specialized point tools, modern agile SaaS platforms, and community-driven open-source utilities.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Manual and Exploratory Testing platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted manual and exploratory testing suites sorted in descending order of company scale (valuation / annual revenue).
 
-### Xray Exploratory App
-**Type:** Desktop exploratory testing with Jira/Xray integration
-The Xray Exploratory App is a desktop-based tool for exploratory testing that works both standalone and integrated with Xray and Jira . Key capabilities include defining new exploratory testing sessions, executing sessions for existing tests, and capturing rich evidence during testing—recording videos and audio, capturing and annotating screenshots, taking notes, and uploading files to the session . Evidence and reports can be uploaded directly to Xray. The app is free and available for Windows and macOS .  
-**Trade-off:** The desktop application is the primary workspace; session management and team workspaces live in the Web Console, which may require a separate account setup.
-
-### Tricentis qTest Explorer
-**Type:** Session recorder with automatic action capture
-qTest Explorer records your application and generates descriptive capture actions for every UI element you interact with, producing readable steps like "Click on Submit button" or "Type youremail@company.com in Username text box" . It supports a broad range of desktop and web UI frameworks including MFC, Win32, WinForms, WPF, Java SWT/Swing, and HTML5/jQuery UI/KendoUI/Dojo/Sencha . **Important limitation:** When applications use non-standard elements (e.g., a `<span>` styled to look like a button), Explorer falls back to generic descriptions like "Click 'here'" .  
-**Best for:** Teams already in the Tricentis ecosystem wanting automatic, readable step generation during exploratory sessions.
-
-### TestRail Exploratory Testing
-**Type:** Exploratory session management within TestRail
-TestRail provides exploratory testing capabilities within its broader test management platform, allowing teams to manage ad-hoc test sessions alongside structured test cases. It is the natural choice for organizations already using TestRail for test case management who want to extend into exploratory workflows without a separate tool.
-
-### PractiTest Exploratory
-**Type:** Exploratory testing within PractiTest platform
-PractiTest provides exploratory testing features as part of its unified test management platform, covering test objects, execution management, and exploratory testing records. It is positioned for teams wanting cross-project visibility into test status alongside exploratory session tracking.
-
-### Testmo Exploratory
-**Type:** Exploratory testing within Testmo platform
-Testmo combines manual test management, exploratory testing, and automation result tracking in one platform. It is positioned for teams wanting a unified view of all testing activities, including unscripted exploratory sessions, without switching tools.
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Specific Tier) | Free Tier / Free Trial Limits | Key Capabilities & Highlights |
+|:---|:---|:---|:---|:---|
+| **[Tricentis qTest Explorer](https://www.tricentis.com/products/unified-test-management-qtest)** | **~$4.5B valuation** (~$500M ARR; PE-backed by GTCR) | ~$83.33/user/month ($1,000/user billed annually) | 14-day free trial; full suite access (qTest Manager, Sessions, Launch, Explorer) | Automatic interaction capture (keystrokes, clicks, screens) generating descriptive natural-language test steps across web, desktop, and legacy enterprise GUIs. |
+| **[Xray Exploratory App](https://www.getxray.app/exploratory-testing-app)** | **~$3.0B valuation** (Parent: Idera, Inc. / Sembi; >$300M revenue) | Standalone desktop app: **$0** (Free). Jira Cloud integration: **$10/month flat** (1–10 users) or ~$7.28/user/month (11–100 tier) | **Free-forever standalone desktop app** (unlimited sessions, video/audio/screen annotation, local PDF export). For Jira integration: 30-day free trial on Atlassian Marketplace | Cross-platform desktop workspace (Windows, macOS, Linux) with integrated charter execution, rich audio/video screen recording, and direct Jira test run evidence sync. |
+| **[TestRail Exploratory Testing](https://www.testrail.com)** | **~$3.0B valuation** (Parent: Idera, Inc.; >$300M revenue; ~$10M–$15M standalone ARR) | **$22/user/month** (Essentials plan, billed annually; max 5 users) or $38/user/month (Professional plan) | 30-day free trial; includes full platform features, test case repositories, ad-hoc runs, and standard defect integrations (no credit card required) | Centralized exploratory session management alongside structured manual/automated test cases, providing unified QA metrics, traceability, and milestone reporting. |
+| **[PractiTest Exploratory](https://www.practitest.com)** | **Bootstrapped / Profitable** (~$1M–$5M ARR; self-sustaining, zero VC debt) | **$47/user/month** (Team plan, billed annually; 5-tester minimum license pack = $235/month) | 14-day free trial; full platform evaluation including Requirements, Test Library, Test Sets, Runs, SmartFox AI, and 5 read-only accounts (no credit card required) | End-to-end test management connecting exploratory sessions, requirement traceability, test runs, and custom bug workflows in one cross-project dashboard. |
+| **[Testmo Exploratory](https://www.testmo.com)** | **Bootstrapped / Privately Held** (Mid-market SaaS; ~hundreds of global teams) | **$59/month flat** (Team plan, includes up to 5 users, unlimited tests/projects) | 21-day free trial; complete feature access (test case management, exploratory runs, automation results, and optional sample demo projects) | Modern, ultra-fast test management pairing exploratory session charters and rich note/screenshot capture with manual tests and CI automation result pipelines. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Manual and Exploratory Testing tools. The open-source ecosystem spans **full test management platforms with session tracking**, **lightweight note-taking tools**, **session-based test managers**, **edge-case injection helpers**, and **AI-assisted session recorders**.
+Self-hosted, community-driven manual and exploratory testing tools sorted by GitHub star count (descending).
 
-### TestPlanIt
-**Stack:** Next.js 16 / React 19 / PostgreSQL / ZenStack | **License:** AGPL-3.0 (dual-licensed) 
-TestPlanIt is an open-source test management platform where **exploratory testing, session management, and note-taking are first-class features** . Key capabilities include:
-- **Exploratory session management**: Manage test sessions and ad-hoc tests for fast release cycles, with session tracking built into the platform 
-- **Note-taking**: Capture observations and findings during exploratory sessions 
-- **Test case management**: Folders, tags, custom fields, and fully customizable templates 
-- **Test execution**: Record results and track test runs across manual and automated cases 
-- **Modern stack**: Next.js 16, React 19, Tailwind CSS 4, ZenStack v3, BullMQ on Valkey, Tiptap rich text, NextAuth.js 
-
-The project is dual-licensed under AGPL-3.0 and a commercial license, with deployment via Docker Compose .  
-**Best for:** Teams wanting a modern, self-hosted test management platform where exploratory sessions and note-taking are integrated with structured test case management, accepting the Next.js/PostgreSQL stack.
-
-### Rapid Reporter
-**Stack:** React / Rust / Tauri | **License:** Open Source (GitHub) 
-Rapid Reporter is a classic exploratory testing note-taking tool, rewritten from scratch by its original creator (Shmuel Gershon) as a cross-platform desktop app . Key characteristics:
-- **Unobtrusive design**: A single-line input window that sits quietly above other apps, always on top but never overbearing—designed to keep your attention on testing rather than the tool 
-- **Markdown-first**: Notes are captured in Markdown with selective icons to support debriefs and stakeholder conversations, shifting the output from a log to a story 
-- **Modern stack**: React frontend, Rust backend, and Tauri for native OS integration (file system, screenshots) without bundling Chromium 
-- **Cross-platform**: Built to escape the single-OS limitation of the original macOS port 
-
-**Trade-off:** The rewrite is focused on the core note-taking workflow—it is not a full test management platform, and session reporting is primarily Markdown output.  
-**Best for:** Exploratory testers wanting a lightweight, always-on-top note-taking companion that stays out of the way during testing, accepting a narrow scope.
-
-### Session Tester
-**Stack:** Windows (native) / XML storage | **License:** GNU Public License 
-Session Tester is a Windows tool for managing and recording **Session-Based Testing (SBT)** . Key capabilities include:
-- **Session timer**: Keep test sessions at the desired length 
-- **Session notes**: Record notes in XML format stored in a `.sessiontester` folder in the user directory 
-- **HTML report generation**: Convert XML session records into HTML reports 
-- **Idea Priming**: A "Prime Me!" button generates short strategy prompts when you run out of ideas 
-- **Exploratory testing cheatsheet**: Includes Elisabeth Hendrickson's cheatsheet accessible from the Help menu 
-
-The tool is 676 KB, free under GNU Public License, and runs on Windows 10/11 .  
-**Trade-off:** Windows-only, and the interface reflects its older design lineage—it is a focused session manager rather than a modern collaborative platform.  
-**Best for:** Windows testers wanting a dedicated, no-frills session-based test management tool with built-in idea priming, accepting a dated UI.
-
-### Bug Magnet
-**Stack:** Chrome Extension (JavaScript) | **License:** Open Source (MIT) 
-Bug Magnet is a Chrome extension that adds common problematic values and edge cases to the right-click context menu for editable elements, making them instantly accessible during exploratory testing . Key characteristics:
-- **Edge-case injection**: Right-click any input, textarea, or content-editable div to insert boundary values, special characters, and other test data 
-- **Customizable**: Extend with your own config files 
-- **Zero interference**: Completely passive with tiny overhead (<1 KB per page) and no third-party dependencies—it does not affect the web app's execution 
-- **Multi-frame support**: Works on same-domain frames 
-
-It has 4.3 stars from 62 ratings on the Chrome Web Store and is actively maintained (last updated November 2025) .  
-**Best for:** Manual testers wanting instant access to edge-case values during exploratory sessions without leaving the browser, accepting that it is a focused helper rather than a full session manager.
-
-### QA Trace
-**Stack:** Browser Extension (Chrome/Firefox) / LLM integration | **License:** Open Source (GitHub) 
-QA Trace is a browser extension that records user actions and monitors runtime errors during exploratory testing, then generates structured prompts you can send to an LLM to produce bug reports, test documentation, or full session reports . Key capabilities include:
-- **Action tracking**: Captures clicks, double-clicks, inputs, changes, tab opens, and reloads, with element selectors, entered values (passwords masked), and timestamps 
-- **Error detection**: Intercepts console errors, unhandled promise rejections, failed fetch/XHR requests, and UI errors via MutationObserver 
-- **Network tracking**: Optionally records all fetch/XHR requests with sensitive data redaction 
-- **Privacy-first**: Tracking only runs on explicitly allowed URLs, query strings are stripped, sensitive headers and body fields are redacted, and API keys are encrypted with AES-256-GCM 
-- **LLM prompt generation**: Converts recorded sessions into structured prompts for bug reports, step-by-step documentation, or full session reports 
-
-It is available for Chrome 114+, Firefox 142+, and Yandex Browser .  
-**Best for:** Testers wanting to leverage LLMs for automated bug report and session report generation from recorded exploratory sessions, accepting the browser-extension scope and LLM dependency.
-
-### Suitest
-**Stack:** Python / FastAPI / React / MCP | **License:** Apache-2.0 
-Suitest is a self-hostable, MCP-native testing platform with **manual test management** and optional AI . Key characteristics:
-- **Manual TCM without AI**: Create and manage test cases from a web dashboard without requiring an LLM 
-- **MCP execution**: Test runs and AI features require a validated workspace LLM (hosted, self-hosted, or OpenAI-compatible) 
-- **Broad target support**: Browsers (Playwright), APIs (HTTP/GraphQL/gRPC), databases, mobile (Appium), desktop (Slint, Tauri), Kubernetes, and other MCP servers 
-- **Self-hosted**: Data never leaves your server, API keys encrypted with AES-GCM, no mandatory telemetry 
-
-**Trade-off:** While manual test case management works without AI, test execution and exploratory session runs require an LLM configuration, which adds setup complexity.  
-**Best for:** Teams wanting a modern, self-hosted platform that combines manual test management with optional AI-assisted execution across diverse targets, accepting the LLM dependency for runs.
+| Tool | Stars | Stack | License | Description & Exploratory Focus |
+|:---|:---:|:---|:---|:---|
+| **[TestLink](https://github.com/TestLinkOpenSourceTRMS/testlink-code)** | [![Stars](https://img.shields.io/github/stars/TestLinkOpenSourceTRMS/testlink-code?style=social&color=white)](https://github.com/TestLinkOpenSourceTRMS/testlink-code/stargazers) | PHP / MySQL / Web | GPL-2.0 | Veteran open-source test management web tool with extensive test specification trees, requirement linking, manual execution passes, and milestone tracking. |
+| **[Kiwi TCMS](https://github.com/kiwitcms/kiwitcms)** | [![Stars](https://img.shields.io/github/stars/kiwitcms/kiwitcms?style=social&color=white)](https://github.com/kiwitcms/kiwitcms/stargazers) | Python / Django / Docker | GPL-3.0 | The leading modern open-source test management system. Features full Docker containerization, manual test run coordination, bug tracker integrations, and extensive API automation. |
+| **[Bug Magnet](https://github.com/gojko/bugmagnet)** | [![Stars](https://img.shields.io/github/stars/gojko/bugmagnet?style=social&color=white)](https://github.com/gojko/bugmagnet/stargazers) | JavaScript / Chrome Ext | MIT | Exploratory testing assistant extension that injects boundary values, special Unicode chars, SQLi/XSS payloads, and edge cases directly into browser input fields. |
+| **[TestPlanIt](https://github.com/TestPlanIt/testplanit)** | [![Stars](https://img.shields.io/github/stars/TestPlanIt/testplanit?style=social&color=white)](https://github.com/TestPlanIt/testplanit/stargazers) | Next.js 16 / React 19 / Postgres | AGPL-3.0 | Modern full-featured test management platform where exploratory sessions, live note-taking, rich text test charters, and ad-hoc runs are treated as first-class citizens. |
+| **[Suitest](https://github.com/suiflex/suitest)** | [![Stars](https://img.shields.io/github/stars/suiflex/suitest?style=social&color=white)](https://github.com/suiflex/suitest/stargazers) | Python / FastAPI / React / MCP | Apache-2.0 | Self-hostable, MCP-native manual test management platform supporting local data persistence, test charters, Playwright/API execution, and optional LLM assistance. |
+| **[Agentic Test Explorer](https://github.com/srbarrios/agentic-test-explorer)** | [![Stars](https://img.shields.io/github/stars/srbarrios/agentic-test-explorer?style=social&color=white)](https://github.com/srbarrios/agentic-test-explorer/stargazers) | Python / LangChain / Playwright | MIT | AI-driven exploratory test framework that dynamically traverses web applications, executes session-based exploration, and flags unexpected UI bugs. |
+| **[Exploratory Testing Extension](https://github.com/morvader/ExploratoryTestingChromeExtension)** | [![Stars](https://img.shields.io/github/stars/morvader/ExploratoryTestingChromeExtension?style=social&color=white)](https://github.com/morvader/ExploratoryTestingChromeExtension/stargazers) | JavaScript / Chrome Web Ext | MIT | Browser extension built specifically for exploratory web testing: capture annotated screenshots, record URL history, log observations, and export markdown/HTML reports. |
+| **[QA Trace](https://github.com/AnastasyaNN/QA-Trace)** | [![Stars](https://img.shields.io/github/stars/AnastasyaNN/QA-Trace?style=social&color=white)](https://github.com/AnastasyaNN/QA-Trace/stargazers) | JavaScript / Web Extension | Open Source | Browser extension tracking user clicks, inputs, console errors, and network anomalies during exploratory sessions, exporting structured context for LLM bug triage. |
+| **[Rapid Reporter](https://github.com/sgershon/Rapid-Reporter)** | [![Stars](https://img.shields.io/github/stars/sgershon/Rapid-Reporter?style=social&color=white)](https://github.com/sgershon/Rapid-Reporter/stargazers) | Tauri / Rust / React | Open Source | The quintessential lightweight, always-on-top exploratory note-taking tool by Shmuel Gershon. Keeps focus squarely on testing while streaming markdown notes and screenshots. |
+| **[Session Tester](https://github.com/testverkstaden/sessiontester)** | [![Stars](https://img.shields.io/github/stars/testverkstaden/sessiontester?style=social&color=white)](https://github.com/testverkstaden/sessiontester/stargazers) | C# / .NET / WinForms | GPL-2.0 | Community continuation of Jonathan Kohl’s classic Session-Based Test Management (SBTM) application with session timer countdowns, charter priming, and HTML reports. |
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Session Management | Note-Taking | Evidence Capture | Self-Hosted | Best For |
-|----------|---------|-------|-------------------|-------------|------------------|-------------|----------|
-| **Xray Exploratory** | Proprietary | Desktop + Cloud | ✅ | ✅ | ✅ Video/audio/screenshots | ❌ | Jira/Xray users |
-| **qTest Explorer** | Proprietary | Desktop | ✅ | ✅ Auto-generated steps | ✅ Screenshots | ❌ | Tricentis ecosystem |
-| **TestPlanIt** | AGPL-3.0 | Next.js/Postgres | ✅ First-class | ✅ | ✅ Attachments | ✅ | Integrated TCM + exploratory |
-| **Rapid Reporter** | Open Source | React/Rust/Tauri | (Note-taking) | ✅ Markdown | ✅ Screenshots | ✅ (Desktop) | Unobtrusive note-taking |
-| **Session Tester** | GPL | Windows native | ✅ Timer + XML | ✅ | ❌ | ✅ (Windows) | Session-based test management |
-| **Bug Magnet** | MIT | Chrome Extension | ❌ | ❌ | ❌ | ✅ (Extension) | Edge-case injection |
-| **QA Trace** | Open Source | Browser Extension | ✅ Action recording | (Via LLM) | ✅ Screenshots | ✅ (Extension) | LLM-generated reports |
-| **Suitest** | Apache-2.0 | Python/React/MCP | ✅ | ✅ | (Check) | ✅ | MCP-native manual TCM |
+| Software | Delivery | Primary License | Session Management | Note-Taking | Evidence Capture | Target Platform |
+|:---|:---|:---|:---:|:---:|:---:|:---|
+| **Tricentis qTest Explorer** | SaaS / Desktop | Commercial | ✅ | ✅ Auto-generated steps | ✅ Screenshots & Video | Web & Windows Desktop |
+| **Xray Exploratory App** | Desktop App / Cloud | Proprietary / Free Tier | ✅ | ✅ Markdown / Formatted | ✅ Audio / Video / Screen | Windows, macOS, Linux |
+| **TestRail** | SaaS / Server | Commercial | ✅ | ✅ | ✅ File attachments | Cross-Platform (Web) |
+| **PractiTest** | SaaS | Commercial | ✅ | ✅ Rich text | ✅ File attachments | Cross-Platform (Web) |
+| **Testmo** | SaaS | Commercial | ✅ | ✅ Rich text | ✅ Screenshots & Video | Cross-Platform (Web) |
+| **TestLink** | Self-Hosted | GPL-2.0 | ⚠️ Via test execution | ✅ | ✅ File attachments | Web (PHP/MySQL) |
+| **Kiwi TCMS** | Self-Hosted / Docker | GPL-3.0 | ✅ Via test runs | ✅ | ✅ Attachments & Bug links | Web (Docker/Django) |
+| **Bug Magnet** | Browser Extension | MIT | ❌ | ❌ | ❌ | Chrome, Edge, Firefox |
+| **TestPlanIt** | Self-Hosted / Cloud | AGPL-3.0 | ✅ Native sessions | ✅ First-class notes | ✅ Media attachments | Web (Docker/Node.js) |
+| **Suitest** | Self-Hosted | Apache-2.0 | ✅ | ✅ | ⚠️ Via MCP integrations | Web & Local APIs |
+| **Agentic Test Explorer** | CLI / Script | MIT | ✅ Automated charters | ✅ Structured logs | ✅ Playwright traces | Python / CLI |
+| **Exploratory Testing Ext.** | Browser Extension | MIT | ✅ Lightweight | ✅ Session notes | ✅ Annotated screenshots | Chrome Browser |
+| **QA Trace** | Browser Extension | Open Source | ✅ Action tracking | ⚠️ Prompt generation | ✅ Error logs & captures | Chrome & Firefox |
+| **Rapid Reporter** | Desktop App | Open Source | ⚠️ Note logging | ✅ Markdown-first | ✅ Screenshots | Windows, macOS, Linux |
+| **Session Tester** | Desktop App | GPL-2.0 | ✅ SBT Timer & XML | ✅ Session notes | ❌ | Windows Native |
+
+---
+
+## 💡 Key Exploratory Testing Concepts
+
+- **Session-Based Test Management (SBTM):** A structured method of exploratory testing developed by James & Jonathan Bach that uses uninterrupted time-boxed sessions focused on a clear test charter.
+- **Test Charter:** A clear mission statement defining what area, feature, or risk is being explored, with what tooling, and what questions to answer.
+- **Edge-Case & Boundary Injection:** Deliberately testing unicode boundaries, null values, script tags, string formatting, and maximum input sizes to detect unhandled exceptions.
+- **Evidence-Driven Defect Reporting:** Generating bug reports with step-by-step reproduction logs, screenshots, HAR files, and video captures directly recorded during the exploration session.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Manual or Exploratory Testing tool that should be listed here, please open a pull request with:
-
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The open-source landscape for **exploratory testing** is **fragmented across distinct layers** rather than unified platforms. **TestPlanIt** is the most complete open-source option for teams wanting exploratory sessions integrated with full test case management, with session tracking and note-taking as first-class features . For focused note-taking, **Rapid Reporter** offers a modern, unobtrusive desktop companion designed to stay out of the tester's way , while **Session Tester** provides a dedicated Session-Based Test Management tool with timer and idea priming . **Bug Magnet** fills the edge-case injection niche, and **QA Trace** bridges exploratory sessions to LLM-generated reports . **Suitest** represents a newer MCP-native approach to manual test management with optional AI . No open-source project fully replicates Xray Exploratory App's tight Jira integration or qTest Explorer's automatic step generation, but these tools cover the core exploratory testing workflows for self-hosted deployments.
+Contributions are always welcome! To add a new manual or exploratory testing tool, open a pull request adhering to these guidelines:
+1. Ensure the tool has active development and is directly relevant to manual/exploratory testing or session-based test management.
+2. Provide accurate pricing, license, and repository links.
+3. Keep entries concise, objective, and sorted according to the established section criteria.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+To the extent possible under law, the authors and contributors have waived all copyright and related or neighboring rights to this work under **CC0 1.0 Universal**.
