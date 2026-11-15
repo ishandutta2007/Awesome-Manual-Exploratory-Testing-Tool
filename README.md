@@ -1,52 +1,70 @@
-# Awesome Manual & Exploratory Testing Tools
+<div align="center">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+# 🧪 Awesome Manual &amp; Exploratory Testing Tools 🎯
 
-> A curated list of top **Manual and Exploratory Testing Tools** — featuring commercial SaaS test management solutions, session-based testing (SBTM) companions, open-source test runners, and browser extensions for unscripted QA, note-taking, and rapid evidence capture.
->
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Manual and Exploratory Testing Tools Banner" width="100%" />
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://www.trackawesomelist.com"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List" /></a>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-## 📋 Table of Contents
+<p align="center">
+  <strong>🌟 A curated directory of top-tier Manual &amp; Exploratory Testing tools — featuring commercial SaaS test management solutions, session-based testing (SBTM) companions, open-source test runners, and browser extensions for unscripted QA, note-taking, and rapid evidence capture. 🚀</strong>
+</p>
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Key Exploratory Testing Concepts](#-key-exploratory-testing-concepts)
-- [Contributing](#-contributing)
-- [License](#-license)
+<p align="center">
+  ✨ <em>Star this repo if you find it helpful!</em> ✨
+</p>
 
----
-
-## 📈 Sector Overview & Market Dynamics
-
-The global **Software Testing & QA Market** is estimated at **$54B–$63B** (projected to exceed **$95B+** by the early 2030s at an ~11% CAGR), with the dedicated **Test Management Software** segment representing approximately **$2.6B**. The sector is **moderately fragmented**—while enterprise conglomerates like Tricentis and Idera anchor the high-end centralized test management market through PE acquisitions, exploratory and session-based testing remains dynamically dispersed across specialized point tools, modern agile SaaS platforms, and community-driven open-source utilities.
+</div>
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📋 Table of Contents 📑
 
-Commercial, cloud-hosted manual and exploratory testing suites sorted in descending order of company scale (valuation / annual revenue).
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [💡 Key Exploratory Testing Concepts](#-key-exploratory-testing-concepts)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
-| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Specific Tier) | Free Tier / Free Trial Limits | Key Capabilities & Highlights |
+---
+
+## 📈 Sector Overview & Market Dynamics 🌐
+
+The global **Software Testing & QA Market** is estimated at **$54B–$63B** 💰 (projected to exceed **$95B+** by the early 2030s at an ~11% CAGR 🚀), with the dedicated **Test Management Software** segment representing approximately **$2.6B** 📊. The sector is **moderately fragmented** 🧩 — while enterprise conglomerates like Tricentis and Idera anchor the high-end centralized test management market through private-equity acquisitions 🏢, exploratory and session-based testing remains dynamically dispersed across specialized point tools 🎯, modern agile SaaS platforms ⚡, and community-driven open-source utilities 💻.
+
+---
+
+## 🟦 SaaS / Hosted Platforms ☁️
+
+Commercial, cloud-hosted manual and exploratory testing suites sorted in descending order of company scale (valuation / annual revenue) 🏆.
+
+| Platform 🛠️ | Company Scale (Valuation / Revenue) 🏢 | Starting Pricing (Specific Tier) 💳 | Free Tier / Free Trial Limits 🎁 | Key Capabilities & Highlights ✨ |
 |:---|:---|:---|:---|:---|
-| **[Tricentis qTest Explorer](https://www.tricentis.com/products/unified-test-management-qtest)** | **~$4.5B valuation** (~$500M ARR; PE-backed by GTCR) | ~$83.33/user/month ($1,000/user billed annually) | 14-day free trial; full suite access (qTest Manager, Sessions, Launch, Explorer) | Automatic interaction capture (keystrokes, clicks, screens) generating descriptive natural-language test steps across web, desktop, and legacy enterprise GUIs. |
-| **[Xray Exploratory App](https://www.getxray.app/exploratory-testing-app)** | **~$3.0B valuation** (Parent: Idera, Inc. / Sembi; >$300M revenue) | Standalone desktop app: **$0** (Free). Jira Cloud integration: **$10/month flat** (1–10 users) or ~$7.28/user/month (11–100 tier) | **Free-forever standalone desktop app** (unlimited sessions, video/audio/screen annotation, local PDF export). For Jira integration: 30-day free trial on Atlassian Marketplace | Cross-platform desktop workspace (Windows, macOS, Linux) with integrated charter execution, rich audio/video screen recording, and direct Jira test run evidence sync. |
-| **[TestRail Exploratory Testing](https://www.testrail.com)** | **~$3.0B valuation** (Parent: Idera, Inc.; >$300M revenue; ~$10M–$15M standalone ARR) | **$22/user/month** (Essentials plan, billed annually; max 5 users) or $38/user/month (Professional plan) | 30-day free trial; includes full platform features, test case repositories, ad-hoc runs, and standard defect integrations (no credit card required) | Centralized exploratory session management alongside structured manual/automated test cases, providing unified QA metrics, traceability, and milestone reporting. |
-| **[PractiTest Exploratory](https://www.practitest.com)** | **Bootstrapped / Profitable** (~$1M–$5M ARR; self-sustaining, zero VC debt) | **$47/user/month** (Team plan, billed annually; 5-tester minimum license pack = $235/month) | 14-day free trial; full platform evaluation including Requirements, Test Library, Test Sets, Runs, SmartFox AI, and 5 read-only accounts (no credit card required) | End-to-end test management connecting exploratory sessions, requirement traceability, test runs, and custom bug workflows in one cross-project dashboard. |
-| **[Testmo Exploratory](https://www.testmo.com)** | **Bootstrapped / Privately Held** (Mid-market SaaS; ~hundreds of global teams) | **$59/month flat** (Team plan, includes up to 5 users, unlimited tests/projects) | 21-day free trial; complete feature access (test case management, exploratory runs, automation results, and optional sample demo projects) | Modern, ultra-fast test management pairing exploratory session charters and rich note/screenshot capture with manual tests and CI automation result pipelines. |
+| **[Tricentis qTest Explorer](https://www.tricentis.com/products/unified-test-management-qtest)** | **~$4.5B valuation** 🦄 (~$500M ARR; PE-backed by GTCR) | ~$83.33/user/month ($1,000/user billed annually) | 14-day free trial; full suite access (qTest Manager, Sessions, Launch, Explorer) | Automatic interaction capture (keystrokes, clicks, screens) generating descriptive natural-language test steps across web, desktop, and legacy enterprise GUIs. |
+| **[Xray Exploratory App](https://www.getxray.app/exploratory-testing-app)** | **~$3.0B valuation** 🏢 (Parent: Idera, Inc. / Sembi; >$300M revenue) | Standalone desktop app: **$0** (Free). Jira Cloud integration: **$10/month flat** (1–10 users) or ~$7.28/user/month (11–100 tier) | **Free-forever standalone desktop app** (unlimited sessions, video/audio/screen annotation, local PDF export). For Jira integration: 30-day free trial on Atlassian Marketplace | Cross-platform desktop workspace (Windows, macOS, Linux) with integrated charter execution, rich audio/video screen recording, and direct Jira test run evidence sync. |
+| **[TestRail Exploratory Testing](https://www.testrail.com)** | **~$3.0B valuation** 🏢 (Parent: Idera, Inc.; >$300M revenue; ~$10M–$15M standalone ARR) | **$22/user/month** (Essentials plan, billed annually; max 5 users) or $38/user/month (Professional plan) | 30-day free trial; includes full platform features, test case repositories, ad-hoc runs, and standard defect integrations (no credit card required) | Centralized exploratory session management alongside structured manual/automated test cases, providing unified QA metrics, traceability, and milestone reporting. |
+| **[PractiTest Exploratory](https://www.practitest.com)** | **Bootstrapped / Profitable** 🌱 (~$1M–$5M ARR; self-sustaining, zero VC debt) | **$47/user/month** (Team plan, billed annually; 5-tester minimum license pack = $235/month) | 14-day free trial; full platform evaluation including Requirements, Test Library, Test Sets, Runs, SmartFox AI, and 5 read-only accounts (no credit card required) | End-to-end test management connecting exploratory sessions, requirement traceability, test runs, and custom bug workflows in one cross-project dashboard. |
+| **[Testmo Exploratory](https://www.testmo.com)** | **Bootstrapped / Privately Held** 🚀 (Mid-market SaaS; ~hundreds of global teams) | **$59/month flat** (Team plan, includes up to 5 users, unlimited tests/projects) | 21-day free trial; complete feature access (test case management, exploratory runs, automation results, and optional sample demo projects) | Modern, ultra-fast test management pairing exploratory session charters and rich note/screenshot capture with manual tests and CI automation result pipelines. |
 
 ---
 
-## 🟩 Open-Source Software
+## 🟩 Open-Source Software 🔓
 
-Self-hosted, community-driven manual and exploratory testing tools sorted by GitHub star count (descending).
+Self-hosted, community-driven manual and exploratory testing tools sorted by GitHub star count (descending) 🌟.
 
-| Tool | Stars | Stack | License | Description & Exploratory Focus |
+| Tool 🛠️ | Stars ⭐ | Stack 💻 | License 📜 | Description & Exploratory Focus 🔍 |
 |:---|:---:|:---|:---|:---|
 | **[TestLink](https://github.com/TestLinkOpenSourceTRMS/testlink-code)** | [![Stars](https://img.shields.io/github/stars/TestLinkOpenSourceTRMS/testlink-code?style=social&color=white)](https://github.com/TestLinkOpenSourceTRMS/testlink-code/stargazers) | PHP / MySQL / Web | GPL-2.0 | Veteran open-source test management web tool with extensive test specification trees, requirement linking, manual execution passes, and milestone tracking. |
 | **[Kiwi TCMS](https://github.com/kiwitcms/kiwitcms)** | [![Stars](https://img.shields.io/github/stars/kiwitcms/kiwitcms?style=social&color=white)](https://github.com/kiwitcms/kiwitcms/stargazers) | Python / Django / Docker | GPL-3.0 | The leading modern open-source test management system. Features full Docker containerization, manual test run coordination, bug tracker integrations, and extensive API automation. |
@@ -61,9 +79,9 @@ Self-hosted, community-driven manual and exploratory testing tools sorted by Git
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Comparison at a Glance 🔍
 
-| Software | Delivery | Primary License | Session Management | Note-Taking | Evidence Capture | Target Platform |
+| Software 🛠️ | Delivery 📦 | Primary License 📜 | Session Management ⏱️ | Note-Taking 📝 | Evidence Capture 📸 | Target Platform 💻 |
 |:---|:---|:---|:---:|:---:|:---:|:---|
 | **Tricentis qTest Explorer** | SaaS / Desktop | Commercial | ✅ | ✅ Auto-generated steps | ✅ Screenshots & Video | Web & Windows Desktop |
 | **Xray Exploratory App** | Desktop App / Cloud | Proprietary / Free Tier | ✅ | ✅ Markdown / Formatted | ✅ Audio / Video / Screen | Windows, macOS, Linux |
@@ -83,25 +101,42 @@ Self-hosted, community-driven manual and exploratory testing tools sorted by Git
 
 ---
 
-## 💡 Key Exploratory Testing Concepts
+## 💡 Key Exploratory Testing Concepts 🧠
 
-- **Session-Based Test Management (SBTM):** A structured method of exploratory testing developed by James & Jonathan Bach that uses uninterrupted time-boxed sessions focused on a clear test charter.
-- **Test Charter:** A clear mission statement defining what area, feature, or risk is being explored, with what tooling, and what questions to answer.
-- **Edge-Case & Boundary Injection:** Deliberately testing unicode boundaries, null values, script tags, string formatting, and maximum input sizes to detect unhandled exceptions.
-- **Evidence-Driven Defect Reporting:** Generating bug reports with step-by-step reproduction logs, screenshots, HAR files, and video captures directly recorded during the exploration session.
+- **⏱️ Session-Based Test Management (SBTM):** A structured method of exploratory testing developed by James & Jonathan Bach that uses uninterrupted time-boxed sessions focused on a clear test charter.
+- **🎯 Test Charter:** A clear mission statement defining what area, feature, or risk is being explored, with what tooling, and what questions to answer.
+- **🐛 Edge-Case & Boundary Injection:** Deliberately testing unicode boundaries, null values, script tags, string formatting, and maximum input sizes to detect unhandled exceptions.
+- **📸 Evidence-Driven Defect Reporting:** Generating bug reports with step-by-step reproduction logs, screenshots, HAR files, and video captures directly recorded during the exploration session.
 
 ---
 
-## 🤝 Contributing
+## 🌟 Star History
 
-Contributions are always welcome! To add a new manual or exploratory testing tool, open a pull request adhering to these guidelines:
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Manual-Exploratory-Testing-Tool&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Manual-Exploratory-Testing-Tool&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you so much for exploring this curated repository! 🙌 If this list helped streamline your QA workflow, save time selecting tools, or level up your exploratory testing practices, please consider supporting the project:
+
+- ⭐ **Star** this repository to show your appreciation and help other QA engineers discover it.
+- 🍴 **Fork** and contribute any missing tools or workflow tips via pull requests.
+- 📢 **Share** it with your testing teams, QA communities, and on social media.
+- ☕ **Buy a Coffee / Sponsor:** You can support ongoing maintenance and new curated resources via the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**. Every contribution is deeply appreciated! 💙
+
+---
+
+## 🤝 Contributing 🤝
+
+Contributions are always welcome! 🎉 To add a new manual or exploratory testing tool, open a pull request adhering to these guidelines:
 1. Ensure the tool has active development and is directly relevant to manual/exploratory testing or session-based test management.
 2. Provide accurate pricing, license, and repository links.
 3. Keep entries concise, objective, and sorted according to the established section criteria.
 
 ---
 
-## 📄 License
+## 📄 License 📜
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
