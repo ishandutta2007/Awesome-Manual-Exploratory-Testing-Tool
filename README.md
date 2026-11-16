@@ -62,7 +62,7 @@ Commercial, cloud-hosted manual and exploratory testing suites sorted in descend
 
 ## 🟩 Open-Source Software 🔓
 
-Self-hosted, community-driven manual and exploratory testing tools sorted by GitHub Stars_Count (descending) 🌟.
+Self-hosted, community-driven manual and exploratory testing tools sorted by GitHub_Stars_Count (descending) 🌟.
 
 | Tool 🛠️ | GitHub_Stars ⭐ | Stack 💻 | License 📜 | Description & Exploratory Focus 🔍 |
 |:---|:---:|:---|:---|:---|
