@@ -62,9 +62,9 @@ Commercial, cloud-hosted manual and exploratory testing suites sorted in descend
 
 ## 🟩 Open-Source Software 🔓
 
-Self-hosted, community-driven manual and exploratory testing tools sorted by GitHub star count (descending) 🌟.
+Self-hosted, community-driven manual and exploratory testing tools sorted by GitHub Stars_Count (descending) 🌟.
 
-| Tool 🛠️ | Stars ⭐ | Stack 💻 | License 📜 | Description & Exploratory Focus 🔍 |
+| Tool 🛠️ | GitHub_Stars ⭐ | Stack 💻 | License 📜 | Description & Exploratory Focus 🔍 |
 |:---|:---:|:---|:---|:---|
 | **[TestLink](https://github.com/TestLinkOpenSourceTRMS/testlink-code)** | [![Stars](https://img.shields.io/github/stars/TestLinkOpenSourceTRMS/testlink-code?style=social&color=white)](https://github.com/TestLinkOpenSourceTRMS/testlink-code/stargazers) | PHP / MySQL / Web | GPL-2.0 | Veteran open-source test management web tool with extensive test specification trees, requirement linking, manual execution passes, and milestone tracking. |
 | **[Kiwi TCMS](https://github.com/kiwitcms/kiwitcms)** | [![Stars](https://img.shields.io/github/stars/kiwitcms/kiwitcms?style=social&color=white)](https://github.com/kiwitcms/kiwitcms/stargazers) | Python / Django / Docker | GPL-3.0 | The leading modern open-source test management system. Features full Docker containerization, manual test run coordination, bug tracker integrations, and extensive API automation. |
